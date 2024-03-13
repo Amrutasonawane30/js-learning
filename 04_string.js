@@ -30,4 +30,26 @@ var greet="   good morning   ";
 console.log("before trim length ",greet.length);
 var str=greet.trim();
 console.log("After trim length ",str.length);
+console.log("========== includes() ==================");
+var greet="good morning";
+var result=greet.includes("ing");
+console.log(`Is string ${greet} includs word for ing ${result}`);
+console.log("========== search() ==================");
+var greet="good morning";
+var result = greet.search("ing");
+console.log(`'ing' is availablr at ${result}`);
+var result = greet.search("r");
+console.log(`'r' is availablr at ${result}`);
+console.log("========== slice() ==================");
+var greet="good morning";
+var slc=greet.slice(0,greet.length-1);
+console.log(`first char is ${0} and last is ${slc}`);
+console.log("========== split() ==================");
+var greet = "Good Morning";
+var resultValue = greet.split(" ")
+console.log(resultValue);
+console.log(`Total words are: ${resultValue.length}`);
+
+
+
 
