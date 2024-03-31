@@ -20,7 +20,7 @@ console.log(`====== Professor name : ${professor.name} age : ${professor.age} te
 console.log("============== Nested Objects ===========");
 console.log(professor.degree);
 console.log("============== Adding one array ===========");
-console.log(professor.certificates);
+console.table(professor.certificates);
 
 console.log("============== Adding new property ===========");
 professor.totalExperience = 14;
