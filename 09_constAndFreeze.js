@@ -27,9 +27,14 @@ const result = "street" in address;
 console.log(result);
 console.log("pin" in address);
 
+//get the keys from an object
+const keys = Object.keys(address);
+console.log(keys);
 
+//get the values from an object
+const values = Object.values(address);
+console.log(address);
 
-39
 
 
 
