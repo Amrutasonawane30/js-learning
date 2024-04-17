@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+        <h1 id="headingH1">HTML and JAVASCRIPT are crucial technologies</h1>
+        <p>The web would not work without them...</p>
+    </div>
+    <div id="advantages">
+        <ul>
+            <li>Flexible</li>
+            <li class="ui">Available</li>
+            <li>Magical</li>
+        </ul>
+    </div>
+    </main>
+    <script>
+        // your solution code goes here
+        console.log("============== Step 1 ================");
+        const mainHeading = document.getElementById("headingH1");
+        console.log(mainHeading.innerHTML);
+
+        console.log("============== Step 2 ================");
+        const secondAdvantage = document.querySelector('.ui');
+        console.log(secondAdvantage.innerHTML);
+
+        console.log("============== Step 3 ================");
+        const advDiv = document.querySelectorAll('#advantages');
+        for (const element of advDiv) {
+        console.log(element.innerHTML);
+}
+
+    </script>
+</body>
+</html>
